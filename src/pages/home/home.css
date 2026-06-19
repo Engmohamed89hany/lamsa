@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rock+Salt&display=swap");
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Delius Swash Caps", cursive;
+}
+.hero {
+  width: 100%;
+  background: url(./imgs/Background.svg) center center/cover no-repeat;
+  position: relative;
+}
+.hero::after,
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 100%;
+  background-color: black;
+}
+.hero::before {
+  left: 99.8%;
+  background-color: rgba(0, 0, 0, 0.619);
+  
+  width: 100px;
+}

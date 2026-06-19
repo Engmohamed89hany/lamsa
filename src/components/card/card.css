@@ -1,0 +1,17 @@
+.person {
+    position: relative;
+}
+.person::before{
+    content: "";
+    width: 200px;
+    height: 1px;
+    position: absolute;
+    bottom: -5px ;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: gray;
+
+}
+.person.cardshop{
+    width: 100%;
+}
